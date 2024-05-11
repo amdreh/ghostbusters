@@ -1,0 +1,180 @@
+/* Paleta de cores
+
+#000 Preto
+#C31E1F Raisin black
+#C31E1F Fire engine red
+#E62224 red
+#FFF Branco */
+
+@media (max-width: 767px) {
+    body {
+        .heroSectionCol {
+            background-image: url('./images/ghostbustersLogo2.png');
+            background-size: contain; 
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+
+        ::placeholder {
+            font-size: 0.8em; 
+        }
+
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ::placeholder {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 992px) {
+    ::placeholder {
+        font-size: 1em; 
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.3s ease;
+    font-family: Poppins, sans-serif;
+}
+
+@font-face {
+    font-family: GhostFont; /* Nome da sua fonte */
+    src: url(GHOSTBUS.TTF);
+}
+
+.heroSectionCol {
+    
+    height: 10vw;
+}
+
+.headerTitle h1{
+    font-size: clamp(2.4rem, 4.5vw, 3.9rem);
+    
+}
+
+
+
+header {
+    background-color: black;
+    
+    
+}
+
+.heroTxt1 {
+    font-size: clamp(0.8rem, 1.5vw, 1.3rem);
+    text-align: center;
+    font-weight:300;
+}
+.heroTxt2 {
+    font-family: GhostFont;
+    font-size: clamp(2.4rem, 4.5vw, 3.9rem);
+    font-weight: bolder;
+    text-align: center;
+}
+.heroTxt3 {
+    text-align:justify;
+    font-size:clamp(0.9rem, 1.6vw, 1.4rem);
+    font-weight: regular;
+}
+
+.heroSection {
+    background: linear-gradient(to bottom, #000000, #C31E1F);  
+    color: white;  
+    display: flex;
+    align-items: center;
+}
+
+
+.heroSectionBtn {
+    opacity: 75%;
+
+}
+
+.heroSectionCol {
+    
+    height: 50vh;
+} 
+
+.contactSection {
+    background: linear-gradient(to bottom, #C31E1F, #000000);
+    justify-content: center;
+}
+
+.contactSection h2,
+.contactSection h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contactSection h2 {
+    font-weight: 600;
+}
+.contactSection h3 {
+    font-weight: 400;
+}
+
+.contactSection {
+    height: 50vh;
+    
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.505), #ffffff28);
+    width: 100%;
+    min-width: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.formButton {
+    width: 99px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header h1 {
+    padding: 2vh 0;
+    
+}
+
+.hero p,
+.headerTitle {
+    margin: 0 10%;
+}
+
+.footerSection {
+    background-color: black;
+    color:#C31E1F;
+    font-weight: 100;
+}
+
+.footerText {
+    opacity: 51%;
+    text-align: center;
+    font-size: small;
+}
+
+.headerTitle a{
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header img {
+    margin-top: 1vw;
+    
+}
