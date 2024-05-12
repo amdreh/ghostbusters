@@ -1,9 +1,6 @@
 /* Paleta de cores
-
 #000 Preto
-#C31E1F Raisin black
 #C31E1F Fire engine red
-#E62224 red
 #FFF Branco */
 
 @media (max-width: 767px) {
@@ -75,7 +72,7 @@ header {
 }
 .heroTxt2 {
     font-family: GhostFont;
-    font-size: clamp(2.4rem, 4.5vw, 3.9rem);
+    font-size: clamp(2rem, 4.5vw, 3.9rem);
     font-weight: bolder;
     text-align: center;
 }
